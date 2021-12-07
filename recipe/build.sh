@@ -14,6 +14,9 @@ export VERBOSE=1
 
 cmake --build _build
 
-(cd _build && ctest)
+
+if [[ "$CONDA_BUILD_CROSS_COMPILATION" != "1" ]]; then
+    (cd _build && ctest)
+fi
 
 cmake --install _build
