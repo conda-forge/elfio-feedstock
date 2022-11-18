@@ -1,5 +1,5 @@
 {% set name = "elfio" %}
-{% set version = "3.10" %}
+{% set version = "3.11" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/serge1/ELFIO/archive/refs/tags/Release_{{ version }}.tar.gz
-  sha256: 6a27c3285adb86bffbf137fada09b93b58b682ac7205821d0b2cb5320f8fcbef
+  sha256: 108f8461326cd13ce478328cc91587fe590c219b829cc22ea9c950334eaa93d4
 
 build:
   number: 0
