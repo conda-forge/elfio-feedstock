@@ -31,7 +31,7 @@ about:
   home: https://serge1.github.io/ELFIO
   license: MIT
   license_family: MIT
-  license_file: COPYING
+  license_file: LICENSE.txt
   summary: ELF (Executable and Linkable Format) reader and producer implemented as a header only C++ library
   doc_url: http://elfio.sourceforge.net/elfio.pdf
   dev_url: https://github.com/serge1/ELFIO
