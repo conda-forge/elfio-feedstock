@@ -8,6 +8,7 @@ fi
 
 cmake ${CMAKE_ARGS} -G Ninja -B _build \
     -DELFIO_BUILD_TESTS=on \
+    -DELFIO_BUILD_FUZZ=off \
     -DCMAKE_EXE_LINKER_FLAGS_INIT="${CMAKE_EXE_LINKER_FLAGS_INIT}"
 
 export VERBOSE=1
