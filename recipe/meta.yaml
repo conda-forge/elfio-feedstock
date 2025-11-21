@@ -15,12 +15,13 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib('c') }}
     - {{ compiler('cxx') }}
     - cmake
     - ninja
 
     # Only required for building tests
-    - boost  # [unix]
+    - libboost-devel  # [unix]
 
 test:
   commands:
