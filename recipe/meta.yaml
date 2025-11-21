@@ -8,6 +8,8 @@ package:
 source:
   url: https://github.com/serge1/ELFIO/archive/refs/tags/Release_{{ version }}.tar.gz
   sha256: e4ebc9ce3d6916461bc3e7765bb45e6210f0a9b93978bf91e59b05388c024489
+  patches:
+    - 0001-guard-AT_SYSINFO_EHDR.patch
 
 build:
   number: 0
